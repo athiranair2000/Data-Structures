@@ -16,3 +16,16 @@ Here's the basic idea of the Bubble Sort algorithm:
 3. If this item is greater than the next one, swap them.
 4. Move on to the next item.
 5. Repeat steps 1-4 until you go through the whole list without doing any swaps.
+
+- ### Insertion Sort:
+
+An element in an array is assigned as key.
+
+Basic Idea of insertion  algorithm:
+
+1. Starts with 1rst element of the array.
+2. Compares it with previous index element till it reaches zeroth index.
+3. If item assigned as key is lesser than the previous index elements then swapping occurs.
+4. Move on to the next item and assign it as key.
+5. Repeat steps 1-4 until you go through the whole list without doing any swaps.
+
