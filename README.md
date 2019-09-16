@@ -29,3 +29,11 @@ Basic Idea of insertion  algorithm:
 4. Move on to the next item and assign it as key.
 5. Repeat steps 1-4 until you go through the whole list without doing any swaps.
 
+## Merge Sort:
+Datastructure used here is an array.
+- Merge sort is recursive.
+- Very efficient for large datasets.
+- Merge sort does log n merge steps because merge step doubles the list size.It does n work for merge steps because it must look at every item.
+- It runs O(n logn)
+
+
