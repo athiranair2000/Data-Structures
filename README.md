@@ -29,11 +29,26 @@ Basic Idea of insertion  algorithm:
 4. Move on to the next item and assign it as key.
 5. Repeat steps 1-4 until you go through the whole list without doing any swaps.
 
-## Merge Sort:
+- ### Merge Sort:
 Datastructure used here is an array.
 - Merge sort is recursive.
 - Very efficient for large datasets.
 - Merge sort does log n merge steps because merge step doubles the list size.It does n work for merge steps because it must look at every item.
 - It runs O(n logn)
 
+## Stack:
+
+- It can be a type of an array or a linked list.
+
+- push: add an element
+
+- pop: delete an element.
+
+- Stack is a recursive data structure having pointer to its top element.
+
+- Stacks are sometimes called as Last-In-First-Out (LIFO) lists i.e. the element which is inserted first in the stack, will be deleted last from the stack. 
+
+- ### Linked List:
+
+Here data is moved up and down mainly by pointig out with node addresses.
 
