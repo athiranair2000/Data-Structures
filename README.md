@@ -48,6 +48,14 @@ Datastructure used here is an array.
 
 - Stacks are sometimes called as Last-In-First-Out (LIFO) lists i.e. the element which is inserted first in the stack, will be deleted last from the stack. 
 
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567218-0a62f000-df73-11e9-86be-cc2c9bcc72c6.png" height = "480" width="270"></td>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567242-1b136600-df73-11e9-8ec2-d31a8d68a247.png" height = "480" width="270"></td>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567268-35e5da80-df73-11e9-967f-021a841493f1.png" height = "480" width="270"></td>
+  </tr>
+  </table>
+
 - ### Linked List:
 
 Here data is moved up and down mainly by pointig out with node addresses.
