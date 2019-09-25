@@ -60,3 +60,27 @@ Datastructure used here is an array.
 
 Here data is moved up and down mainly by pointig out with node addresses.
 
+## Queue:
+
+1. A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.
+
+2. Queue is referred to be as First In First Out list.
+
+### Array based implementation of Queue:
+
+- Check if the queue is already full by comparing rear to max - 1. if so, then return an overflow error.
+
+- If the item is to be inserted as the first element in the list, in that case set the value of front and rear to 0 and insert the element at the rear end.
+
+- Otherwise keep increasing the value of rear and insert each element one by one having rear as the index. 
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567535-464a8500-df74-11e9-9ead-7a68792b199b.png" height = "480" width="270"></td>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567625-8dd11100-df74-11e9-8180-6c9a476a69ff.png" height = "480" width="270"></td>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65567645-9e818700-df74-11e9-9b24-b9161a72932a.png" height = "480" width="270"></td>
+  </tr>
+  </table>
+
+
+
