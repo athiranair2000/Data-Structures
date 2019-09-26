@@ -81,6 +81,36 @@ Here data is moved up and down mainly by pointig out with node addresses.
     <td><img src="https://user-images.githubusercontent.com/43814992/65567645-9e818700-df74-11e9-9b24-b9161a72932a.png" height = "480" width="270"></td>
   </tr>
   </table>
+  
+### Linked List implementation of queue:
 
+Algorithm:
+
+- Create a  new node to act as a pointer.
+- Set node.data=val;
+- IF FRONT = NULL
+
+ SET FRONT = REAR = node
+ 
+ SET FRONT -> NEXT = REAR -> NEXT = NULL
+ 
+ ELSE
+ 
+ SET REAR -> NEXT = node
+ 
+ SET REAR = node
+ 
+ SET REAR -> NEXT = NULL
+ 
+ [END OF IF]
+ 
+- END
+
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/43814992/65653657-b4a24c80-e033-11e9-984c-e51ecfaaeaaa.png"></td>
+  </tr>
+  </table>
 
 
