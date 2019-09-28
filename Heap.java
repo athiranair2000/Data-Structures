@@ -91,6 +91,17 @@ public class MinHeap {
         for (int i=(size-2)/2; i>=0; i--) 
             fixHeap(i);		//start from smallest parent till ancestor
     }
+	
+	
+   int extractMin() {
+        int val = arr[0]; // First copy the value at root
+	
+        arr[0] = arr[size-1]; // Bring last element to root
+	fixHeap(0); // Fix the heap from the root
+	size--;  // Decrement the size
+
+        return val;
+    }
 
     
     
@@ -103,6 +114,8 @@ public class MinHeap {
 
         m.buildHeap();
         m.print();  // prints 0 2 1 4 3 8 7 9 6 5
+	System.out.println( m.extractMin() ); 
+        m.print();
 
        
     }
