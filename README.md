@@ -112,5 +112,8 @@ Algorithm:
     <td><img src="https://user-images.githubusercontent.com/43814992/65653657-b4a24c80-e033-11e9-984c-e51ecfaaeaaa.png"></td>
   </tr>
   </table>
-
-
+  
+  ## Heap Sort-Min Heap
+- Approach: Suppose, we need to build a Max-Heap from the above-given array elements.
+- It can be clearly seen that the above complete binary tree formed does not follow the Heap property.
+- So, the idea is to heapify the complete binary tree formed from the array in reverse level order following top-down approach.
